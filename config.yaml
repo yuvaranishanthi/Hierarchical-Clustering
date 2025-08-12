@@ -1,0 +1,14 @@
+name: hierarchical-clustering-app
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - flask=2.3.2
+  - pandas=2.2.2
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - joblib=1.4.2
+  - scikit-learn=1.4.2
+  - pip
+  - pip:
+      - gunicorn==21.2.0
